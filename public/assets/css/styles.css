@@ -1,0 +1,72 @@
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+body {
+  background-color: #245;
+  font-family: 'Play';
+  margin: 0px;
+  width: 100%;
+}
+body .container {
+  width: 80%;
+  margin: 0 auto;
+}
+body .component-example-header {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.navigation-wrapper {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+}
+.navigation-wrapper .navigation {
+  margin: 15px auto;
+  width: 27%;
+  padding: 0px;
+}
+.navigation-wrapper .navigation li {
+  margin: 0px 20px;
+  list-style: none;
+  float: left;
+}
+.navigation-wrapper .navigation li a {
+  color: grey;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 2px solid #3B5998;
+}
+
+.greeting-message {
+  margin-top: 12px;
+  margin-right: 17px;
+  text-align: center;
+  font-size: 20px;
+  color: lightgreen;
+  text-transform: uppercase;
+}
+
+hr {
+  margin-top: 13px;
+}
+
+.service-message {
+  color: lightblue;
+  font-size: 18px;
+  text-align: center;
+}
+
+.ng-repeat-message {
+  color: yellow;
+  font-size: 18px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <title>RE NAME</title>
+    <link rel="stylesheet" href="public/assets/css/styles.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+      <div>
+          <!-- Single page application set up -->
+          <global-header></global-header>
+          <div ui-view></div>
+
+          <!-- Http request -->
+          <github-request></github-request>
+
+          <!-- ngRpeat example -->
+          <repeat-directive></repeat-directive>
+      </div>
+
+    <!--   Third Party   -->
+    <script src="bower_components/angular/angular.min.js" charset="utf-8"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js" charset="utf-8"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-local-storage/dist/angular-local-storage.min.js" charset="utf-8"></script>
+
+    <!--   anuglar files  -->
+    <script src="public/app/app.js" charset="utf-8"></script>
+    <script src="public/app/controllers/controllers.js" charset="utf-8"></script>
+    <script src="public/app/directives/directives.js" charset="utf-8"></script>
+    <script src="public/app/filters/filters.js" charset="utf-8"></script>
+    <script src="public/app/services/services.js" charset="utf-8"></script>
+
+  </body>
+</html>
