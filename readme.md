@@ -1,5 +1,5 @@
 #Angular Practices
-####Clone down the repository in your terminal if you want to practice with me! (Feel free to add anything and push it up! (AngularJS only...)
+####Clone down the repository in your terminal if you want to practice with me! Feel free to add anything and push it up! (AngularJS only...)
 #####`git clone git@github.com:JoshSpears3/ngPractice.git`
 
 ####Checkout out the development branch
