@@ -1,7 +1,18 @@
 myApp.controller('githubCtrl', [ 'githubApi', '$q', '$scope',
     function(githubApi, $q, $scope){
-        // Call the promise from github service
-        githubApi.accountInformation()
+        $scope.getInfo = function(name){
+            githubApi.accountInformation($scope.username)
+            .then( function (result) {
+                    // Wrap data returned in a object name data
+                    $scope.data = result.data;
+                }, function (error) {
+                    // Handle errors here
+                    console.log(error.statusText);
+                }
+            )
+            .getInfo(name);
+        }
+        githubApi.accountInformation($scope.username)
         .then( function (result) {
                 // Wrap data returned in a object name data
                 $scope.data = result.data;
@@ -9,6 +20,6 @@ myApp.controller('githubCtrl', [ 'githubApi', '$q', '$scope',
                 // Handle errors here
                 console.log(error.statusText);
             }
-        );
+        )
     }
 ]);

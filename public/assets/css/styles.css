@@ -67,6 +67,18 @@ body .component-example-header {
   background-color: lightgreen;
 }
 
+.search-wrapper {
+  margin: 0 auto;
+  width: 17%;
+}
+.search-wrapper button {
+  margin-left: 20px;
+}
+
+.underline {
+  border-bottom: 2px solid white;
+}
+
 .active {
   border-bottom: 2px solid #3B5998;
 }
