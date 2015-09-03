@@ -40,6 +40,33 @@ body .component-example-header {
   text-decoration: none;
 }
 
+.hide-show-wrapper {
+  width: 100%;
+  height: 200px;
+}
+.hide-show-wrapper .box1-wrapper {
+  width: 48%;
+  float: left;
+  text-align: center;
+}
+.hide-show-wrapper .box1-wrapper .box1 {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+}
+.hide-show-wrapper .box2-wrapper {
+  width: 48%;
+  float: left;
+  text-align: center;
+}
+.hide-show-wrapper .box2-wrapper .box2 {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+}
+
 .active {
   border-bottom: 2px solid #3B5998;
 }
