@@ -23,6 +23,14 @@ myApp.directive('globalHeader',['$location', function($location){
     }
 }]);
 
+myApp.directive('hideShow', [function(){
+    return {
+        scope: {},
+        restrict: 'E',
+        templateUrl: 'public/views/partials/hide-show.html',
+    }    
+}]);
+
 myApp.directive('repeatDirective', [
     function() {
         return {

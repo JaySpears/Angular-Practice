@@ -1,0 +1,21 @@
+<p class="component-example-header">Displaying information with ng-hide and ng-show.</p>
+<div class="hide-show-wrapper">
+    <div class="box1-wrapper">
+        <input type="checkbox" ng-model="hideStuff">
+        <p>Click me to hide content</p>
+        <div ng-hide="hideStuff" >
+            <div class="box1">
+                <p>HIDE</p>
+            </div>
+        </div>
+    </div>
+    <div class="box2-wrapper">
+        <input type="checkbox" ng-model="showStuff">
+        <p>Click me to show content</p>
+        <div ng-show="showStuff">
+            <div class="box2">
+                <p>SHOW</p>
+            </div>
+        </div>
+    </div>
+</div>
