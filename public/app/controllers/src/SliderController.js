@@ -26,13 +26,4 @@ myApp.controller('sliderCtrl', ['$scope', function($scope){
             $scope.currentIndex = $scope.sliderImages.length - 1;
         }
     };
-
-    $scope.$watch('currentIndex', function() {
-        $scope.sliderImages.forEach(function(image) {
-            // make every image invisible
-            image.visible = false;
-        });
-        // make the current image visible
-        $scope.sliderImages[$scope.currentIndex].visible = true;
-    });
 }]);
