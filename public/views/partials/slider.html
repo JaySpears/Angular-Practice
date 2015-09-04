@@ -1,7 +1,7 @@
 <p class="component-example-header">Creating a image carousel</p>
 <div class="slider">
     <div class="slide">
-        <img width="500px" height="250px" ng-repeat="slide in sliderImages" ng-show="slide.visible" ng-src="{{slide.image}}">
+        <img width="500px" height="250px" ng-repeat="slide in sliderImages track by $index" ng-show="$index === currentIndex" ng-src="{{slide.image}}">
     </div>
     <div class="slide-navigation">
         <button class="prev" href="" ng-click="prev()"><</button>
