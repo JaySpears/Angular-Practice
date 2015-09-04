@@ -116,6 +116,24 @@ hr {
 .slide.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
 }
+.slide-navigation {
+    .prev{
+        position: absolute;
+        left: 350px;
+        top: 1300px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 60px;
+    }
+    .next{
+        position: absolute;
+        right: 350px;
+        top: 1300px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 60px;
+    }
+}
 .service-message {
     color:lightblue;
     font-size:18px;
