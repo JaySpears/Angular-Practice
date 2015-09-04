@@ -1,11 +1,11 @@
-<p class="component-example-header">Creating a slider</p>
+<p class="component-example-header">Creating a image carousel</p>
 <div class="slider">
-    <div>
-        <img class="slide" width="500px" height="250px" ng-repeat="slide in sliderImages" ng-show="slide.visible" ng-src="{{slide.image}}">
+    <div class="slide">
+        <img width="500px" height="250px" ng-repeat="slide in sliderImages" ng-show="slide.visible" ng-src="{{slide.image}}">
     </div>
     <div class="slide-navigation">
-        <a class="prev" href="" ng-click="prev()"><</a>
-        <a class="next" href="" ng-click="next()">></a>
+        <button class="prev" href="" ng-click="prev()"><</button>
+        <button class="next" href="" ng-click="next()">></button>
     </div>
 </div>
 <hr>
