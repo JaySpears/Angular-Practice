@@ -1,0 +1,10 @@
+<p class="component-example-header">Creating a slider with ngAnimate</p>
+<div class="slider">
+    <div>
+        <img class="slide" width="500px" height="250px" ng-repeat="slide in sliderImages" ng-show="slide.visible" ng-src="{{slide.image}}">
+    </div>
+    <div class="slide-navifation">
+        <a class="prev" href="" ng-click="prev()"><</a><br>
+        <a class="next" href="" ng-click="next()">></a>
+    </div>
+</div>
