@@ -9,7 +9,7 @@
   "main": "app.js",
   "license": "MIT",
   "dependencies": {
-    "angular": "~1.4.2",
+    "angular": "~1.4.7",
     "angular-animate": "~1.4.7",
     "angular-local-storage": "~0.2.2",
     "angular-route": "~1.4.2",

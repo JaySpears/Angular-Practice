@@ -21,7 +21,6 @@ myApp.controller('ContactCtrl', ['$scope', function($scope) {
                         console.log(error.statusText);
                     }
                 )
-                .getInfo(name);
             }
             githubApi.accountInformation($scope.username)
             .then( function (result) {

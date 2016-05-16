@@ -1,6 +1,8 @@
 <p class="component-example-header">Creating a service. Making a $http request to grab Github information.</br> <span class="underline">Enter your Github username!</span></p>
 <div class="search-wrapper">
-    <input ng-model="username"/><button ng-click="getInfo(name)">Submit</button>
+    <form ng-submit="getInfo(name)">
+        <input ng-model="username"/>  <input type="submit" id="submit" value="Submit" />
+    </form>
 </div>
 <!-- use ng-bind instead of your oridinary {{expression}} (best practice)-->
 <div class="service-message">
